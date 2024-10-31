@@ -1,23 +1,19 @@
-# java-web-maven-blade-hello-world
+# java-cli-bazel-springboot-hello-world
 
 ## Description
-A POC for blade framework rendering html page.
+A POC for springboot framework.
 
 ## Tech stack
-- cors
+- spring boot
 
 ## Docker stack
-- maven:3-openjdk-17
+- l.gcr.io/google/bazel:latest
 
 ## To run
 `sudo ./install.sh -u`
-Available at http://localhost
 
 ## To stop
 `sudo ./install.sh -d`
 
 ## For help
 `sudo ./install.sh -h`
-
-## Credit
-- [Blade framework code](https://github.com/eugenp/tutorials/tree/master/web-modules/blade)
